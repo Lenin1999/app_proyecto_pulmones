@@ -4,10 +4,10 @@
     "slug": "app_proyecto_pulmones",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/inicio.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/inicio.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lenin1999.app_proyecto_pulmones"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/inicio.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5857adf8-989f-4657-a04a-7e58fe11a2f3"
+      }
     }
   }
 }
